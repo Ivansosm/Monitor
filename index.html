@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electiva_Profesional_5</title>
+    <!--linkeo favicon*-->
+    <link rel="shortcut icon" href="./images/favicon-96x96.png" type="image/x-icon">
+    <!--linkeo normalize*/-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--linkeo estilos*/-->
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <!--Definit cabecera/-->
+    <header class="hero">
+        <!--Definir menu de navegacion/-->
+        <nav class="nav container">
+            <!--creo contenedor para navegador hijo: logo/-->
+            <div class="nav_logo">
+                <!--jerraquia H2/-->
+                <h2 class="nav_title">Monitor</h2>
+            </div>
+
+            <!--Lista navegacion link y menu/-->
+            <ul class="nav_link nav_link--menu">
+                <!--tomo contenido de cada item/-->
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Inicio</a>
+                </li><li class="nav_items">
+                    <a href="./monitor/metodo.html" target="_blank" class="nav_links">Nuestro Método</a>
+                </li><li class="nav_items">
+                    <a href="./monitor/casos.html" target="_blank" class="nav_links">Casos de éxito</a>
+                </li><li class="nav_items">
+                    <a href="https://api.whatsapp.com/send/?phone=573142946461&text&type=phone_number&app_absent=0" target="_blank" class="nav_links">Contáctenos</a>
+                </li>
+
+                <img src="./images/xclose.svg" class="nav_close" alt="">
+            </ul>
+
+            <div class="nav_menu"><!--Para este proyecto utilizare el llamado menú “Hamburguesa” (es aquel que está oculto tras el icono de tres líneas horizontales y que se despliega cuando hacemos clic en él)-->
+                <img src="./images/menu.svg" class="nav_img" alt="">
+            </div>
+        </nav>
+
+        <section class="hero_container container">
+            <h1 class="hero_title">Extensión para educar</h1>
+            <p class="hero_parrafo">Monitor nace en el contexto tecnológico, social y cultural que se vive actualmente (2022) por lo tanto es una herramienta para llegar a los miembros de la comunidad educativa que pone el conocimiento al alcance de quien lo requiera de una manera mas interactiva 100% gráfica y mas atractiva. Mediante contenido multimedia y/o audiovisual el cual permite que el usuario disponga de 1 a 5 minutos únicamente para cada lección.</p>
+            <a href="#" class="cta">Empieza en Monitor</a>
+        </section>
+    </header>
+
+    <main>
+        <!--Sección about, ¿que aprenderás…?-->
+        <section class="container about">
+            <h2 class="subtitle">¿Qué aprenderás con nosotros?</h2>
+            <p class="about_paragraph">Con nosotros reforzaras las materias en las que tengas dificultades mas que enseñarte somos unapoyo para ayudarte comprender las materias que se te dificultan. </p>
+
+        
+        <!--Divido contendor principal y divido para generar distintos articulos-->
+            <div class="about_main">
+                <article class="about_icons">
+                    <img src="./images/natura.svg" class="about_icon" alt=""><!--En declaracion de .SVG le cambio el color "Style File"-->
+                    <h3 class="about_title"><a class="about_title" href="./monitor/naturales.html" target="_blank">Biología</a></h3>
+                    <p class="about_paragrah">En Biología tenemos los monitores más aventureros que te instruyen desde la experiencia y te dan una experiencia inmersiva en el mundo de la naturaleza. Aprende lo que debes saber sobre le mundo que nos rodea, el mundo que no vemos a simple vista. Y el mundo que formamos cada individuo y especie.</p>
+                </article>
+
+                <article class="about_icons">
+                    <img src="./images/castellana.svg" class="about_icon" alt=""><!--En declaracion de .SVG le cambio el color "Style File"-->
+                    <h3 class="about_title"><a class="about_title" href="./monitor/español.html" target="_blank">Lengua Castellana</a></h3>
+                    <p class="about_paragrah">La lectura dinámica que encontraremos para tu proceso de aprendizaje será la base para que aprendas la lengua castellana. Después nuestros monitores te orientaran para escribir y redactar textos adecuados en forma y en fondo.
+                        Si lo tuyo es la creatividad tenemos monitores que explotaran tus habilidades para seas el próximo GABO!.</p>
+                </article>
+
+                <article class="about_icons">
+                    <img src="./images/math.svg" class="about_icon" alt=""><!--En declaracion de .SVG le cambio el color "Style File"-->
+                    <h3 class="about_title"><a class="about_title" href="./monitor/matematicas.html" target="_blank">Matemáticas</a></h3>
+                    <p class="about_paragrah">Nuestros monitores te orientaran según tus cualidades para las ciencias exactas.
+                        Las matemáticas son fundamentales para la vida en Monitor descubriremos como orientarlas para cada caso.
+                        …si definitivamente no es lo tuyo te orientaremos de la mejor manera para que no repruebes “las matemáticas son tus aliadas no tus enemigas”.</p>
+                </article>
+            </div>
+        </section>
+        <!--Sección de conocimiento Apoyamos tu proceso…-->
+        <section class="knowledge">
+             <!--Quiero que primero este el fondo y despues le contenedor-->   
+             <divc class="knowledge_container container"></div>
+                <div class="knowledge_texts">
+                    <!--Reutilizo clases como subtittle o cta-->   
+                    <h2 class="subtitle">Monitor… “extensión para educar”. ¡Apoyamos tu proceso de aprendizaje ¡</h2>
+                    <p class="knowledge_paragraph">Nuestras monitorias son la extensión precisa para complementar tus clases. Te apoyaremos y fortaleceremos las falencias que puedas tener.</p>
+                    <a href="#" class="cta">Empecemos</a>
+                </div>
+
+                <figure class="knowledge_picture">
+                    <img src="./images/celular tranparente_.png" class="knowledge_img" alt="">
+                </figure>
+        </section>
+        
+        <!--Sección de precios…-->
+        <section class="price container">
+            <h2 class="subtitle">Tenemos el plan se ajusta a tus necesidades</h2>
+
+            <div class="price_table">
+                <div class="price_element">
+                    <p class="price_name">Estudiante</p>
+                    <h3 class="price_price">Acceso Libre</h3>
+
+                    <div class="price_items">
+                        <p class="price_features">Acceso a todas nuestras publicaciones </p>
+                        <p class="price_features">Acceso a todas nuestras Materias</p>
+                        <p class="price_features">Intercambio con otros estudiantes </p>
+                    </div>
+
+                    <a href="#" class="price_cta">Empieza ahora</a>
+                </div>
+
+                <div class="price_element price_element--best">
+                    <p class="price_name">Monitor Plus</p>
+                    <h3 class="price_price">200$ Año</h3>
+
+                    <div class="price_items">
+                        <p class="price_features">Monitorias Personalizadas</p>
+                        <p class="price_features">Puedes elegir y cambiar de Monitor</p>
+                        <p class="price_features">Nuestros monitores siempre atenderán tus inquietudes y te retroalimentarán</p>
+                    </div>
+
+                    <a href="#" class="price_cta">Empieza ahora</a>
+                </div>
+
+                <div class="price_element">
+                    <p class="price_name">Monitor Estandar</p>
+                    <h3 class="price_price">30$ Mes</h3>
+
+                    <div class="price_items">
+                        <p class="price_features">Flexbox</p>
+                        <p class="price_features">Flexbox</p>
+                        <p class="price_features">Flexbox</p>
+                    </div>
+
+                    <a href="#" class="price_cta">Empieza ahora</a>
+                </div>
+
+                
+
+            </div>
+        </section>
+        <!--Sección de testimonios…-->
+        <section class="testimony">
+            <div class="testimony_container container">
+                <img src="./images/leftArrow.svg" class="testimony_arrow" id="before" alt="">
+                <section class="testimony_body testimony_body--show" data-id="1">
+                    <div class="testimony_texts">
+                         <h2 class="subtitle">Mi nombre es Leonardo, <span 
+                            class="testimony_course"> Estudiante.</span></h2>
+                            <p class="testimony_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque adipisci magni rerum, officia, unde esse in harum doloremque, autem iure. Illo error delectus praesentium doloremque at magni minima voluptatibus?</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="./images/Estudent1.jpg" class="testimony_img" alt="">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="2">
+                    <div class="testimony_texts">
+                         <h2 class="subtitle">Mi nombre es Donattelo, <span 
+                            class="testimony_course"> Estudiante.</span></h2>
+                            <p class="testimony_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque adipisci magni rerum, officia, unde esse in harum doloremque, autem iure. Illo error delectus praesentium doloremque at magni minima voluptatibus?</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="./images/Estudent2.jpg" class="testimony_img" alt="">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="3">
+                    <div class="testimony_texts">
+                         <h2 class="subtitle">Mi nombre es April, <span 
+                            class="testimony_course"> Estudiante.</span></h2>
+                            <p class="testimony_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque adipisci magni rerum, officia, unde esse in harum doloremque, autem iure. Illo error delectus praesentium doloremque at magni minima voluptatibus?</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="./images/Estudent3.jpg" class="testimony_img" alt="">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="4">
+                    <div class="testimony_texts">
+                         <h2 class="subtitle">Mi nombre es Splinter, <span 
+                            class="testimony_course"> Profesor.</span></h2>
+                            <p class="testimony_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque adipisci magni rerum, officia, unde esse in harum doloremque, autem iure. Illo error delectus praesentium doloremque at magni minima voluptatibus?</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="./images/Profe1.jpg" class="testimony_img" alt="">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="5">
+                    <div class="testimony_texts">
+                         <h2 class="subtitle">Mi nombre es PRUEBA 5, <span 
+                            class="testimony_course"> Profesor.</span></h2>
+                            <p class="testimony_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque adipisci magni rerum, officia, unde esse in harum doloremque, autem iure. Illo error delectus praesentium doloremque at magni minima voluptatibus?</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="./images/Profe1.jpg" class="testimony_img" alt="">
+                    </figure>
+                </section>
+
+                <img src="./images/rightArrow.svg" class="testimony_arrow" id="next" alt="">
+                
+            </div>
+        </section>
+        
+        <!--Sección de Preguntas Frecuentes…-->
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas Frecuentes</h2>
+            <p class="questions_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat cupiditate, quidem cumque veritatis, dignissimos sapiente voluptate repudiandae fuga quam voluptates fugit consequuntur dolore voluptatum ipsum dolor dolores fugiat atque.</p>
+
+            <section class="questions_container">
+                <article class="questions_padding"> <!--agrego question_paddigns para usar la funcion scrollHeight en el .js-->
+                    <div class="questions_answer">
+                        <h3 class="questions_title">Pregunta 1
+                            <span class="questions_arrow">
+                                <img src="./images/downarrow.svg" class="questions_img" alt="">
+                            </span>
+                        </h3>
+
+                        <p class="questions_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eaque ipsum debitis recusandae necessitatibus blanditiis minus magni molestias, corrupti quod velit totam temporibus fugit itaque vel laborum tempore dolorum numquam.</p>
+                    </div>
+                </article>
+
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">Pregunta 2
+                            <span class="questions_arrow">
+                                <img src="./images/downarrow.svg" class="questions_img" alt="">
+                            </span>
+                        </h3>
+
+                        <p class="questions_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eaque ipsum debitis recusandae necessitatibus blanditiis minus magni molestias, corrupti quod velit totam temporibus fugit itaque vel laborum tempore dolorum numquam.</p>
+                    </div>
+                </article>
+
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">Pregunta 3
+                            <span class="questions_arrow">
+                                <img src="./images/downarrow.svg" class="questions_img" alt="">
+                            </span>
+                        </h3>
+
+                        <p class="questions_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eaque ipsum debitis recusandae necessitatibus blanditiis minus magni molestias, corrupti quod velit totam temporibus fugit itaque vel laborum tempore dolorum numquam.</p>
+                    </div>
+                </article>
+                
+            </section>
+			
+			<section class="questions_offer">
+                <h2 class="subtitle">¿Estas listo para Recibir Monitorias?</h2>
+                <p class="questions_copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
+                    architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
+                    eius atque tempora iure ab non autem.</p>
+                <a href="#" class="cta">Aprende ahora</a>
+            </section>
+        </section>
+	</main>
+	
+	<footer class="footer">
+         <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title">Electiva Profesional 5.</h2>
+
+                <ul class="nav_link nav__link--footer">
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Contacto</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer_form" action="https://formspree.io/f/maykbypv" target="_blank" method="POST">
+                <h2 class="footer_newsletter">Recibe nuestras noticias</h2>
+                <div class="footer_inputs" target="_blank">
+                    <input type="email" placeholder="Email:" class="footer_input" name="email">
+                    <input type="submit" value="Registrate" target="_blank" class="footer_submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="https://www.facebook.com/people/Monitor-Extensi%C3%B3n-Para-Educar/100083220682560/?modal=admin_todo_tour" target="_blank" class="footer_icons"><img src="./images/facebook.svg" class="footer_img"></a>
+                <a href="https://twitter.com/MonitorPara" target="_blank" class="footer_icons"><img src="./images/twitter.svg" class="footer_img"></a>
+                <a href="https://www.instagram.com/monitor_extension_para_educar/" target="_blank" class="footer_icons"><img src="./images/instagram.svg" class="footer_img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Iván Leonardo Sosa Munevar | Ivansosm</h3>
+        </section>
+    </footer>
+
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+	<script src="./js/menu.js"></script>
+</body>
+</html>
